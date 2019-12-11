@@ -13,23 +13,23 @@ if(isset($_POST['submit'])) {
     $mail->isSMTP();
 
     // SMTP-Postausgang eintragen:
-    $mail->Host = "in-v3.mailjet.com"; // z.B. smtp.1und1.de
+    $mail->Host = ""; // z.B. smtp.1und1.de
 
     $mail->IsHTML(true);
     $mail->SMTPAuth = true;
 
     // Login und Passwort der Empfänger-Mail
-    $mail->Username = "c35dfcd8c9d2d11a151ba3e91af34c78";
-    $mail->Password = "0edb7ef0e68f80056cc5c2f7e6246d34";
+    $mail->Username = ""; // z.B. info@techkings.de
+    $mail->Password = ""; // Passwort für Email
 
     // Verschlüsselungsprotokoll
     $mail->SMTPSecure = "tls";
-    $mail->Port = 587;  //oder 587
+    $mail->Port = 25; // Port für SMTP
 
     $mail->Subject = "Anfrage über Website";
     $mail->Body = $message;
-    $mail->setFrom("contact@servername.de", $username);
-    $mail->addAddress('bewerben@servername.de');
+    $mail->setFrom("info@techkings.de", $username); // Zusteller Email
+    $mail->addAddress('CommanderDonkey@gmail.com'); // Email Empfänger
 
 
 
