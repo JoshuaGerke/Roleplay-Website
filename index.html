@@ -1,0 +1,72 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/0dfdec2c7e.js"></script>
+
+<div class="logo">[Server]</div>
+<img class="backguy" src="img/pic1.png">
+
+<ul class="menu">
+    <li class="menuitem" onclick="openLink('start')" style="border-color: #3ca918">Start</li>
+    <li class="menuitem" onclick="openLink('about')" >Über Uns</li>
+    <li class="menuitem" onclick="openLink('rules')" >Regelwerk</li>
+    <li class="menuitem" onclick="openLink('whitelist')" >Whitelist</li>
+    <li class="menuitem" onclick="openLink('bewerben')" >Bewerben</li>
+    <li class="menuitem" onclick="openLink('contact')" >Kontakt</li>
+    <li class="menuitem" onclick="openLink('partner')">Partner</li>
+    <li class="menuitem" onclick="openLink('impressum')">Impressum</li>
+</ul>
+
+<div class="maintext">
+    <div class="title">GTA 5 <br><w style="color: #3ca918">Roleplay</w></div>
+    <div class="description">Wir bringen das Roleplay auf ein neues Level, mit unserer Realistischen Handhabung, sind uns keine Grenzen gesetzt!</div>
+    <div class="button1">Jetzt Bewerben</div>
+</div>
+
+<div class="bar">
+    <div class="sec1">
+        <div class="sec1time">3:13</div>
+        <div class="sec1title">Server-Liste</div>
+        <div class="sec1subtitle">Server Übersicht, mit aktuellen Informationen.</div>
+    </div>
+
+    <div class="sec2">
+        <div class="sectitle">RageMP</div>
+        <div class="secsubtitle">Server 01</div>
+        <div class="secslots">?/1000</div>
+        <div class="secip" id="first" onclick="openLink('first')">Unbekannt</div><i onclick="copyText('first')" class="grey1 far fa-copy"></i>
+        <div class="secbarfull">
+            <div class="secinbar"></div>
+        </div>
+
+        <div class="secbadge">GTA5 Mod</div>
+    </div>
+
+    <div class="sec3">
+        <div class="sectitle">Discord</div>
+        <div class="secsubtitle blue">Server 02</div>
+        <div class="secslots">?/∞</div>
+        <div class="secip blue" id="second" onclick="openLink('second')">Unbekannt</div><i onclick="copyText('second')" class="grey2 far fa-copy"></i>
+        <div class="secbarfull">
+            <div class="secinbar bluebg"></div>
+        </div>
+
+        <div class="secbadge bluebg">Text</div>
+    </div>
+
+    <div class="sec4">
+        <div class="sectitle">TeamSpeak</div>
+        <div class="secsubtitle pink">Server 03</div>
+        <div class="secslots">?/32</div>
+        <div class="secip pink" id="third" onclick="openLink('third')">Unbekannt</div><i onclick="copyText('third')" class="grey3 far fa-copy"></i>
+        <div class="secbarfull">
+            <div class="secinbar pinkbg"></div>
+        </div>
+
+        <div class="secbadge pinkbg">Voice</div>
+    </div>
+</div>
+</html>
