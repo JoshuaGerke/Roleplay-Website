@@ -36,5 +36,5 @@ Support, Fragen, und generelles kannst du in unserem Discord erfragen https://di
 - Impressum
 </pre>
 
-Mit freundlichen Grüßen,
+Mit freundlichen Grüßen,<br>
 Joshua Gerke
